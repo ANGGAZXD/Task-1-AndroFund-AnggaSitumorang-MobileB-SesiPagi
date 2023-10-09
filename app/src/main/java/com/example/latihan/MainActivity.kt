@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnImplicit: Button = findViewById(R.id.btn_implicit)
         btnImplicit.setOnClickListener(this)
+
+        val btnHome: Button = findViewById(R.id.btn_home)
+        btnHome.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
